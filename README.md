@@ -5,7 +5,7 @@ Github allows people to plan & track work using [project boards](https://help.gi
 What we'd like, is for you to create a tickets listing page. This page should allow someone to pull information from multiple project boards at once in to a single screen. To do this you will need to use the [GitHub API](https://developer.github.com/v3/), as well as to design a page to show this information in a visually appealing way.
 
 ### Goal
-Use the [GitHub API](https://developer.github.com/v3/) to create a web page that combines all issues from a number of [GitHub Project Boards](https://github.com/CoInvestor/webtest-2019/projects).
+Use the [GitHub API](https://developer.github.com/v3/) to create a web page that combines all issues from our [GitHub Project Boards](https://github.com/CoInvestor/webtest-2019/projects).
 
 Your solution should:
 
