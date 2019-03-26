@@ -1,0 +1,38 @@
+body {
+	margin: 20px 0px;
+}
+
+.project-column {
+	padding: 10px;
+	background-color: #d1d5da;
+}
+
+.col-title {
+	font-size: 22px; 
+}
+
+.card {
+	margin: 10px 0px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.project-column,
+.card {
+	border: 1px solid #e1e4e8;
+	border-radius: 5px;
+}
+
+.card-title {
+	font-size: 17px;
+}
+
+.card-title,
+.description {
+	margin-bottom: 12px;
+}
+
+.btm p {
+	display: inline-block;
+	margin-right: 5px;
+}

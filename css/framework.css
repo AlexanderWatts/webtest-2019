@@ -3,7 +3,7 @@ reset
 -----------------------------*/
 
 * {
-	box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -19,18 +19,18 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, input, textarea { 
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
 }
 
 ul, ol, li {
-	list-style-type: none;
-	list-style: none;
+ list-style-type: none;
+ list-style: none;
 }
 
 a {
-	text-decoration: none;
+ text-decoration: none;
 }
 
 /*-----------------------------
@@ -38,14 +38,14 @@ grid
 -----------------------------*/
 
 .row {
-	max-width: 1200px;
-	margin: 0 auto;
-	overflow: hidden;
+ max-width: 1200px;
+ margin: 0 auto;
+ overflow: hidden;
 }
 
 .box {
-	display: inline-block;
-	padding: 0px 20px;
+ float: left;
+ padding: 0px 20px;
 }
 
 .column-1 {width:8.33333333333%;}
@@ -67,16 +67,16 @@ clearfix
 
 .cf:before,
 .cf:after {
-	content: " ";
-	display: table;
+ content: " ";
+ display: table;
 }
 
 .cf:after {
-	clear: both;
+ clear: both;
 }
 
 .cf {
-	*zoom: 1;
+ *zoom: 1;
 }
 
 /*-----------------------------
@@ -84,18 +84,18 @@ media queries
 -----------------------------*/
 
 @media only screen and (max-width: 400px) {
-	.column-1,
-	.column-2, 
-	.column-3, 
-	.column-4,
-	.column-5, 
-	.column-6, 
-	.column-7, 
-	.column-8, 
-	.column-9, 
-	.column-10,
-	.column-11,
-	.column-12 {
-		width: 100%;
- 	}
+ .column-1,
+ .column-2, 
+ .column-3, 
+ .column-4,
+ .column-5, 
+ .column-6, 
+ .column-7, 
+ .column-8, 
+ .column-9, 
+ .column-10,
+ .column-11,
+ .column-12 {
+  width: 100%;
+ }
 }
