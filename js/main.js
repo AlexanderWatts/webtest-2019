@@ -34,12 +34,35 @@ function fetchData(url) {
  * Fetch the data for each of CoInvestors
  * projects
  */
-function fetchProjects(url) {
+function fetchProjects() {
 
-	fetchData(url).then(res => {
-		console.log(res);
+	fetchData(url + 'repos/CoInvestor/webtest-2019/projects').then(response => {
+		
+		//Get the projects id and the name of the project board
+		//Send results to fetchColumns function
+		response.forEach(element => {
+			fetchColumns(element.id, element.name);
+		});
+
 	});
 
 }
 
-fetchProjects(url + 'repos/CoInvestor/webtest-2019/projects');
+/**
+ * Fetch the columns in each project
+ */
+function fetchColumns(project_id, project_name) {
+
+	fetchData(url + `projects/${project_id}/columns`).then(response => {
+
+		//Get the projects column id and the name of 
+		//the column it's in.
+		response.forEach(element => {
+			console.log(element.id);
+			console.log(element.name);
+		});
+
+	});
+}
+
+fetchProjects();
