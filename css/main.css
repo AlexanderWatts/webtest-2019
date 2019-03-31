@@ -12,6 +12,7 @@ body {
 }
 
 .card {
+	font-size: 14px;
 	margin: 10px 0px;
 	padding: 10px;
 	background-color: #fff;
@@ -23,16 +24,30 @@ body {
 	border-radius: 5px;
 }
 
-.card-title {
+.card h2 {
 	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 15px;
 }
 
-.card-title,
-.description {
-	margin-bottom: 12px;
+.card .project {
+	margin-bottom: 15px;
+} 
+
+.card a {
+	color: #357dd4;
 }
 
-.btm p {
-	display: inline-block;
-	margin-right: 5px;
+.card a:hover {
+	text-decoration: underline;
+	color: #249252;
+}
+
+@media only screen and (max-width: 1200px) {
+	body {
+		margin: 0px;
+	}
+	.project-column {
+		margin: 25px;
+	}
 }

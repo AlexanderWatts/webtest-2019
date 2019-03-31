@@ -51,8 +51,8 @@ function createCard(description, project_name, creator, creator_profile, date_cr
 	//Create card
 	var card = `<div class="card">
 		<h2>${description}</h2>
-		<p>From project board: ${project_name}<p>
-		<p><a href="${creator_profile}">${creator}</a><span class="date"> - ${date_created}</span></p>
+		<p class="project">From: ${project_name}<p>
+		<p>Added by <a href="${creator_profile}">${creator}</a><span class="date"> - ${date_created}</span></p>
 	</div>`;
 
 	//Get the correct column
