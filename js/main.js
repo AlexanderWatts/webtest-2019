@@ -12,7 +12,7 @@ var url = 'https://api.github.com/';
  */
 
 var headers = new Headers();
-headers.append('Authorization', `Basic ${KEY}`);
+headers.append('Authorization', `Bearer ${KEY}`);
 headers.append('Accept', 'application/vnd.github.inertia-preview+json'); 
 
 /**
